@@ -1,0 +1,73 @@
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin:0;
+    padding:0;
+    background-color:mediumorchid;
+}
+.pinky,a
+{
+    display: block;
+}
+ #cont{/*to diplay the entire form in centre */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+} */
+
+form{
+    background-color: orchid;
+    width:20%;/*30% of parent width which is 30% of div tag which is parent*/
+    border-radius: 5px;
+    padding:30px;
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:wheat;
+
+
+}
+form label{ 
+    color:brown;
+    font-size: 20px;
+}
+form .paisa
+{
+width:100%;
+height: 20px;
+border: none;
+border-radius: 5px;
+}
+#btn{
+   display: flex;
+   justify-content: space-between;
+    
+} 
+ form button{
+    width:30%;
+    height:20px;
+    border:none;
+    border-radius:5px ;
+    color:red;
+    background-color:white ;
+}
+
+#cn{
+    background-color:aquamarine;
+}
+form a{
+text-decoration: none;
+color:green;
+}
+
+.fa-circle-user{
+position: absolute;
+top:60%;
+left:3%;
+}  
+
+#user{
+    position: relative;/* parent element should be relative */
+
+ } 
